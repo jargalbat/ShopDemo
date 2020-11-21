@@ -1,10 +1,25 @@
 ﻿<Properties StartupConfiguration="{B1857164-6788-46DF-AD07-70231F37A313}|Default">
   <MonoDevelop.Ide.ItemProperties.src.Catalog.Catalog.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Catalog/Catalog.API/Properties/launchSettings.json">
+    <Files>
+      <File FileName="src/Catalog/Catalog.API/Properties/launchSettings.json" Line="20" Column="21" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ShopDemo" expanded="True" />
+          <Node name="ShopDemo" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="Catalog" expanded="True">
+                <Node name="Catalog.API" expanded="True">
+                  <Node name="Properties" expanded="True">
+                    <Node name="launchSettings.json" selected="True" />
+                  </Node>
+                  <Node name="Settings" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="docker-compose" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>

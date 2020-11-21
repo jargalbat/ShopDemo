@@ -8,15 +8,15 @@ services:
         condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_URLS: https://+:443;http://+:80
+      ASPNETCORE_URLS: http://+:80
       CatalogDatabaseSettings:ConnectionString: mongodb://catalogdb:27017
     image: catalog
     ports:
     - published: 8000
       target: 80
     volumes:
-    - /Users/jargalbat/.aspnet/https:/root/.aspnet/https:ro
-    - /Users/jargalbat/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+    - /Users/jargalbat/.aspnet/https:/root/.aspnet/https:rw
+    - /Users/jargalbat/.microsoft/usersecrets:/root/.microsoft/usersecrets:rw
   catalogdb:
     container_name: catalogdb
     image: mongo
@@ -25,5 +25,5 @@ services:
       target: 27017
     restart: always
     volumes:
-    - /site:/data/db:rw
+    - /Users/jargalbat/site:/data/db:rw
 version: '3.4'
