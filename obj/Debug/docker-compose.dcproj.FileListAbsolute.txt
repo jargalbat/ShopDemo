@@ -1,0 +1,17 @@
+/Users/jargalbat/Projects/ShopDemo/bin/Debug/appsettings.Development.json
+/Users/jargalbat/Projects/ShopDemo/bin/Debug/appsettings.json
+/Users/jargalbat/Projects/ShopDemo/bin/Debug/Catalog.API.dll
+/Users/jargalbat/Projects/ShopDemo/bin/Debug/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/jargalbat/Projects/ShopDemo/bin/Debug/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/jargalbat/Projects/ShopDemo/bin/Debug/MongoDB.Driver.dll
+/Users/jargalbat/Projects/ShopDemo/bin/Debug/MongoDB.Bson.dll
+/Users/jargalbat/Projects/ShopDemo/bin/Debug/Swashbuckle.AspNetCore.Swagger.dll
+/Users/jargalbat/Projects/ShopDemo/bin/Debug/MongoDB.Driver.Core.dll
+/Users/jargalbat/Projects/ShopDemo/bin/Debug/Microsoft.OpenApi.dll
+/Users/jargalbat/Projects/ShopDemo/bin/Debug/MongoDB.Libmongocrypt.dll
+/Users/jargalbat/Projects/ShopDemo/bin/Debug/DnsClient.dll
+/Users/jargalbat/Projects/ShopDemo/bin/Debug/SharpCompress.dll
+/Users/jargalbat/Projects/ShopDemo/bin/Debug/Catalog.API.pdb
+/Users/jargalbat/Projects/ShopDemo/obj/Debug/docker-compose.dcprojAssemblyReference.cache
+/Users/jargalbat/Projects/ShopDemo/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
+/Users/jargalbat/Projects/ShopDemo/obj/Debug/docker-compose.dcproj.CopyComplete
