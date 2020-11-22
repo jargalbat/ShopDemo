@@ -1,12 +1,9 @@
 ﻿<Properties StartupConfiguration="{DACFD9F9-4757-469B-82C6-5D9CE6CED7F1}|Default">
   <MonoDevelop.Ide.ItemProperties.src.Catalog.Catalog.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/Common/EventBusRabbitMQ/RabbitMQConnection.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Basket/Basket.API/Mapping/BasketMapping.cs">
     <Files>
-      <File FileName="src/Basket/Basket.API/Controllers/BasketController.cs" Line="75" Column="1" />
-      <File FileName="src/Basket/Basket.API/Startup.cs" Line="62" Column="55" />
-      <File FileName="src/Basket/Basket.API/appsettings.json" Line="3" Column="11" />
-      <File FileName="docker-compose.yml" Line="1" Column="1" />
-      <File FileName="src/Common/EventBusRabbitMQ/RabbitMQConnection.cs" Line="46" Column="29" />
+      <File FileName="src/Basket/Basket.API/Controllers/BasketController.cs" Line="70" Column="1" />
+      <File FileName="src/Basket/Basket.API/Mapping/BasketMapping.cs" Line="4" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,8 +12,10 @@
             <Node name="src" expanded="True">
               <Node name="Basket" expanded="True">
                 <Node name="Basket.API" expanded="True">
-                  <Node name="Dependencies" expanded="True" />
-                  <Node name="Controllers" expanded="True" />
+                  <Node name="Mapping" expanded="True">
+                    <Node name="BasketMapping.cs" selected="True" />
+                  </Node>
+                  <Node name="Repositories" expanded="True" />
                 </Node>
               </Node>
               <Node name="Common" expanded="True">
@@ -24,7 +23,6 @@
                   <Node name="Common" expanded="True" />
                   <Node name="Events" expanded="True" />
                   <Node name="Producer" expanded="True" />
-                  <Node name="RabbitMQConnection.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
