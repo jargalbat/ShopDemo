@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{DACFD9F9-4757-469B-82C6-5D9CE6CED7F1}|Default">
   <MonoDevelop.Ide.ItemProperties.src.Catalog.Catalog.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/Basket/Basket.API/Controllers/BasketController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="docker-compose.override.yml">
     <Files>
-      <File FileName="src/Basket/Basket.API/Controllers/BasketController.cs" Line="28" Column="33" />
+      <File FileName="docker-compose.yml" Line="21" Column="1" />
+      <File FileName="docker-compose.override.yml" Line="18" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,27 +11,17 @@
           <Node name="ShopDemo" expanded="True">
             <Node name="src" expanded="True">
               <Node name="Basket" expanded="True">
-                <Node name="Basket.API" expanded="True">
-                  <Node name="Dependencies" expanded="True">
-                    <Node name="PackageDependencies" expanded="True" />
-                  </Node>
-                  <Node name="Controllers" expanded="True">
-                    <Node name="BasketController.cs" selected="True" />
-                  </Node>
-                  <Node name="Data" expanded="True" />
-                  <Node name="Repositories" expanded="True">
-                    <Node name="Interfaces" expanded="True" />
-                  </Node>
-                </Node>
+                <Node name="Basket.API" expanded="True" />
               </Node>
               <Node name="Catalog" expanded="True">
-                <Node name="Catalog.API" expanded="True">
-                  <Node name="Controllers" expanded="True" />
-                  <Node name="Data" expanded="True" />
-                </Node>
+                <Node name="Catalog.API" expanded="True" />
               </Node>
             </Node>
-            <Node name="docker-compose" expanded="True" />
+            <Node name="docker-compose" expanded="True">
+              <Node name="docker-compose.yml" expanded="True">
+                <Node name="docker-compose.override.yml" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
