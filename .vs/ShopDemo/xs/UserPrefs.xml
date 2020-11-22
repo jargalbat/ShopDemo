@@ -1,25 +1,20 @@
-﻿<Properties StartupConfiguration="{DACFD9F9-4757-469B-82C6-5D9CE6CED7F1}|Default">
+﻿<Properties StartupConfiguration="{6132FC84-99F4-4A17-8582-BCE79E294962}|Default">
   <MonoDevelop.Ide.ItemProperties.src.Catalog.Catalog.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Ordering/Ordering.API/Startup.cs">
+    <Files>
+      <File FileName="src/Ordering/Ordering.Infrastructure/Data/OrderContext.cs" Line="11" Column="1" />
+      <File FileName="src/Ordering/Ordering.API/Program.cs" Line="46" Column="1" />
+      <File FileName="src/Ordering/Ordering.Infrastructure/Data/OrderContextSeed.cs" Line="25" Column="18" />
+      <File FileName="src/Ordering/Ordering.API/Startup.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ShopDemo" expanded="True">
             <Node name="src" expanded="True">
-              <Node name="Basket" expanded="True">
-                <Node name="Basket.API" expanded="True">
-                  <Node name="Controllers" expanded="True">
-                    <Node name="BasketController.cs" selected="True" />
-                  </Node>
-                  <Node name="Mapping" expanded="True" />
-                  <Node name="Repositories" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="Common" expanded="True">
-                <Node name="EventBusRabbitMQ" expanded="True">
-                  <Node name="Common" expanded="True" />
-                  <Node name="Events" expanded="True" />
-                  <Node name="Producer" expanded="True" />
+              <Node name="Ordering" expanded="True">
+                <Node name="Ordering.API" expanded="True">
+                  <Node name="Startup.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -41,7 +36,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.src.Basket.Basket.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/jargalbat/Projects/ShopDemo/src/Ordering/Ordering.API/Program.cs" relfile="src/Ordering/Ordering.API/Program.cs" line="46" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.src.Ordering.Ordering.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
