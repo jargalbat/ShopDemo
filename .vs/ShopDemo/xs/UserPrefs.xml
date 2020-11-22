@@ -1,10 +1,6 @@
 ﻿<Properties StartupConfiguration="{DACFD9F9-4757-469B-82C6-5D9CE6CED7F1}|Default">
   <MonoDevelop.Ide.ItemProperties.src.Catalog.Catalog.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/Basket/Basket.API/Mapping/BasketMapping.cs">
-    <Files>
-      <File FileName="src/Basket/Basket.API/Controllers/BasketController.cs" Line="70" Column="1" />
-      <File FileName="src/Basket/Basket.API/Mapping/BasketMapping.cs" Line="4" Column="39" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -12,9 +8,10 @@
             <Node name="src" expanded="True">
               <Node name="Basket" expanded="True">
                 <Node name="Basket.API" expanded="True">
-                  <Node name="Mapping" expanded="True">
-                    <Node name="BasketMapping.cs" selected="True" />
+                  <Node name="Controllers" expanded="True">
+                    <Node name="BasketController.cs" selected="True" />
                   </Node>
+                  <Node name="Mapping" expanded="True" />
                   <Node name="Repositories" expanded="True" />
                 </Node>
               </Node>
