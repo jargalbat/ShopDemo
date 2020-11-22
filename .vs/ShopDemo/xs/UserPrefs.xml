@@ -5,7 +5,7 @@
       <File FileName="src/Ordering/Ordering.Infrastructure/Data/OrderContext.cs" Line="11" Column="1" />
       <File FileName="src/Ordering/Ordering.API/Program.cs" Line="46" Column="1" />
       <File FileName="src/Ordering/Ordering.Infrastructure/Data/OrderContextSeed.cs" Line="25" Column="18" />
-      <File FileName="src/Ordering/Ordering.API/Startup.cs" Line="1" Column="1" />
+      <File FileName="src/Ordering/Ordering.API/Startup.cs" Line="32" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
