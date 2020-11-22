@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{B1857164-6788-46DF-AD07-70231F37A313}|Default">
   <MonoDevelop.Ide.ItemProperties.src.Catalog.Catalog.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/Catalog/Catalog.API/Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Catalog/Catalog.API/Controllers/CatalogContoller.cs">
     <Files>
-      <File FileName="src/Catalog/Catalog.API/Properties/launchSettings.json" Line="20" Column="21" />
+      <File FileName="src/Catalog/Catalog.API/Controllers/CatalogContoller.cs" Line="24" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,9 +11,11 @@
             <Node name="src" expanded="True">
               <Node name="Catalog" expanded="True">
                 <Node name="Catalog.API" expanded="True">
-                  <Node name="Properties" expanded="True">
-                    <Node name="launchSettings.json" selected="True" />
+                  <Node name="Controllers" expanded="True">
+                    <Node name="CatalogContoller.cs" selected="True" />
                   </Node>
+                  <Node name="Entities" expanded="True" />
+                  <Node name="Properties" expanded="True" />
                   <Node name="Settings" expanded="True" />
                 </Node>
               </Node>

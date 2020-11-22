@@ -15,7 +15,7 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
-      ASPNETCORE_URLS: https://+:443;http://+:80
+      ASPNETCORE_URLS: http://+:80
       CatalogDatabaseSettings:ConnectionString: mongodb://catalogdb:27017
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
       NUGET_FALLBACK_PACKAGES: ''
@@ -33,8 +33,8 @@ services:
     volumes:
     - /Users/jargalbat/Projects/ShopDemo/src/Catalog/Catalog.API:/app:rw
     - /Users/jargalbat/vsdbg/vs2017u5:/remote_debugger:rw
-    - /Users/jargalbat/.aspnet/https:/root/.aspnet/https:ro
-    - /Users/jargalbat/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+    - /Users/jargalbat/.aspnet/https:/root/.aspnet/https:rw
+    - /Users/jargalbat/.microsoft/usersecrets:/root/.microsoft/usersecrets:rw
     - /Users/jargalbat/.nuget/packages:/root/.nuget/packages:ro
     - /Users/jargalbat/Projects/ShopDemo:/src:rw
   catalogdb:
@@ -45,5 +45,5 @@ services:
       target: 27017
     restart: always
     volumes:
-    - /site:/data/db:rw
+    - /Users/jargalbat/site:/data/db:rw
 version: '3.4'
