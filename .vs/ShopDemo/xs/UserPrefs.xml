@@ -1,22 +1,32 @@
-﻿<Properties StartupConfiguration="{B1857164-6788-46DF-AD07-70231F37A313}|Default">
+﻿<Properties StartupConfiguration="{DACFD9F9-4757-469B-82C6-5D9CE6CED7F1}|Default">
   <MonoDevelop.Ide.ItemProperties.src.Catalog.Catalog.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/Catalog/Catalog.API/Controllers/CatalogContoller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Basket/Basket.API/Controllers/BasketController.cs">
     <Files>
-      <File FileName="src/Catalog/Catalog.API/Controllers/CatalogContoller.cs" Line="24" Column="10" />
+      <File FileName="src/Basket/Basket.API/Controllers/BasketController.cs" Line="28" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ShopDemo" expanded="True">
             <Node name="src" expanded="True">
+              <Node name="Basket" expanded="True">
+                <Node name="Basket.API" expanded="True">
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="PackageDependencies" expanded="True" />
+                  </Node>
+                  <Node name="Controllers" expanded="True">
+                    <Node name="BasketController.cs" selected="True" />
+                  </Node>
+                  <Node name="Data" expanded="True" />
+                  <Node name="Repositories" expanded="True">
+                    <Node name="Interfaces" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
               <Node name="Catalog" expanded="True">
                 <Node name="Catalog.API" expanded="True">
-                  <Node name="Controllers" expanded="True">
-                    <Node name="CatalogContoller.cs" selected="True" />
-                  </Node>
-                  <Node name="Entities" expanded="True" />
-                  <Node name="Properties" expanded="True" />
-                  <Node name="Settings" expanded="True" />
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Data" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -24,10 +34,16 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>products</Value>
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.src.Basket.Basket.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
