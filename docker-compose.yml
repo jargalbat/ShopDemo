@@ -1,32 +1,32 @@
 version: '3.4'
 
 services:
-  #docker hub
-  catalogdb:
-    image: mongo
+    catalogdb:
+        image: mongo
 
-  basketdb:
-    image: redis 
+    basketdb:
+        image: redis
 
-  rabbitmq:
-    image: rabbitmq:3-management-alpine
+    orderdb:
+        image: mcr.microsoft.com/mssql/server
 
-  catalog.api:
-    image: ${DOCKER_REGISTRY-}catalog
-    build:
-      context: .
-      dockerfile: src/Catalog/Catalog.API/Dockerfile
+    rabbitmq:
+        image: rabbitmq:3-management-alpine
 
-  basket.api:
-    image: ${DOCKER_REGISTRY-}basket
-    build:
-      context: .
-      dockerfile: src/Basket/Basket.API/Dockerfile
+    catalog.api:
+        image: ${DOCKER_REGISTRY-}catalogapi
+        build:
+            context: .
+            dockerfile: src/Catalog/Catalog.API/Dockerfile
 
+    basket.api:
+        image: ${DOCKER_REGISTRY-}basketapi
+        build:
+            context: .
+            dockerfile: src/Basket/Basket.API/Dockerfile
 
-  ordering.api:
-    image: ${DOCKER_REGISTRY-}ordering
-    build:
-      context: .
-      dockerfile: src/Ordering/Ordering.API/Dockerfile
-
+    ordering.api:
+        image: ${DOCKER_REGISTRY-}orderingapi
+        build:
+            context: .
+            dockerfile: src/Ordering/Ordering.API/Dockerfile
