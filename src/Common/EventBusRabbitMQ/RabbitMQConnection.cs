@@ -71,6 +71,7 @@ namespace EventBusRabbitMQ
             try
             {
                 _connection.Dispose();
+                _disposed = true;
             }
             catch (Exception)
             {
