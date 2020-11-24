@@ -1,5 +1,5 @@
 ﻿{
-  "ReRoutes": [
+  "Routes": [
     //Catalog API
     {
       "DownstreamPathTemplate": "/api/v1/Catalog", // TO (DOCKER)

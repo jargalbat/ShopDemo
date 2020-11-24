@@ -1,13 +1,12 @@
-﻿using System;
-using System.Threading;
-using RabbitMQ.Client;
+﻿using RabbitMQ.Client;
 using RabbitMQ.Client.Exceptions;
+using System;
+using System.Threading;
 
 namespace EventBusRabbitMQ
 {
     public class RabbitMQConnection : IRabbitMQConnection
     {
-
         private readonly IConnectionFactory _connectionFactory;
         private IConnection _connection;
         private bool _disposed;
@@ -51,6 +50,7 @@ namespace EventBusRabbitMQ
             }
         }
 
+
         public IModel CreateModel()
         {
             if (!IsConnected)
@@ -71,7 +71,6 @@ namespace EventBusRabbitMQ
             try
             {
                 _connection.Dispose();
-
             }
             catch (Exception)
             {
